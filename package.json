@@ -1,0 +1,32 @@
+{
+  "name": "cats-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.4",
+    "@tsconfig/svelte": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "autoprefixer": "latest",
+    "eslint": "^8.38.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "postcss": "latest",
+    "sass": "^1.61.0",
+    "svelte": "^3.55.1",
+    "svelte-check": "^2.10.3",
+    "tailwindcss": "latest",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
