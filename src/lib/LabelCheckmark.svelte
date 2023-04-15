@@ -7,5 +7,5 @@
         <slot name="label"></slot>
     </span>
 
-    <img class="w-3 h-3" src="{`/${!!checked ? 'accept' : 'remove'}.png`}">
+    <img class="w-3 h-3" src="{`/cat-breeds/${!!checked ? 'accept' : 'remove'}.png`}">
 </div>

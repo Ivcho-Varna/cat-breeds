@@ -9,7 +9,7 @@
         </span>
 
         {#each Array(stars) as star}
-            <img class="w-3 h-3" src="{`/star.png`}">
+            <img class="w-3 h-3" src="{`/cat-breeds/star.png`}">
         {/each}
     </div>
 {/if}
